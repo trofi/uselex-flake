@@ -21,5 +21,7 @@
       uselex_live = uselex.overrideAttrs (oa: {
         version = inputs.uselex.shortRev;
         src = inputs.uselex;
-      }); }; };
+      });
+    };
+  };
 }
